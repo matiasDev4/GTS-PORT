@@ -1,46 +1,34 @@
+# GTS-PORT
 
-# Cobblemon GTS
+Port modificado del mod original **GTS (Global Trade Station)**, adaptado para trabajar con **ReduxEconomy**.
 
-![GitHub](https://img.shields.io/github/license/PokeSplashDEV/GTS)
+## Acerca del proyecto
 
-A Global Trading System mod for [Cobblemon](https://cobblemon.com/) that allows selling of Pokemon and Items.
-## Features
+GTS-PORT es una versión modificada del GTS original, cuyo objetivo principal es integrar su sistema de comercio con ReduxEconomy en lugar de utilizar la implementación económica original.
 
-- Pokemon and Item listings
-- Configurable minimum prices for IVs, Hidden Ability, Specified Items.
-- Item Blacklist
-- Moderation
+La idea es mantener la funcionalidad principal del GTS, permitiendo que los jugadores publiquen, compren y vendan objetos utilizando una economía compartida proporcionada por ReduxEconomy.
 
+## Modificaciones
 
-## Installation
+- Reemplazo de la integración económica original por ReduxEconomy.
+- Adaptación de las operaciones monetarias para utilizar la API de ReduxEconomy.
+- Integración de las consultas de saldo y transacciones con el sistema económico compartido.
+- Conservación de las funcionalidades originales del sistema de comercio.
 
-This mod can be ran on both [Fabric](https://fabricmc.net/) and [Forge](https://files.minecraftforge.net/net/minecraftforge/forge/). It has a few dependencies:
+## Dependencias
 
-- Minecraft Versions: 1.19.2
-- [Cobblemon](https://modrinth.com/mod/cobblemon)
-- [Impactor](https://modrinth.com/mod/impactor)
-- [Gooeylibs](https://github.com/NickImpact/GooeyLibs)
+- Minecraft.
+- Dependencias originales requeridas por GTS.
+- ReduxEconomy.
 
+## Créditos
 
-## Screenshots
+Este proyecto está basado en el mod original **GTS**.
 
-![Gts Screen](https://i.imgur.com/laMTPyy.png)
-![Pokemon Listing](https://i.imgur.com/1znf9Fk.png)
-![Own Listing](https://i.imgur.com/sgl9jsN.png)
-![History](https://i.imgur.com/m1ne2Li.png)
-![Purchase Screen](https://i.imgur.com/U5xBVto.png)
-![Moderation](https://i.imgur.com/JaStGsM.png)
-## Documentation
+El desarrollo original y sus respectivos créditos pertenecen a sus autores. Este port realiza modificaciones sobre su implementación para permitir la integración con ReduxEconomy.
 
-[See the wiki.](https://github.com/PokeSplashDEV/GTS/wiki)
+## Aviso
 
+GTS-PORT es una modificación no oficial y no está afiliada ni respaldada por los desarrolladores originales de GTS.
 
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-
-## Authors
-
-- [@bencrow11](https://www.github.com/bencrow11)
-- [@poqdavid](https://www.github.com/poqdavid)
+Para la redistribución de este proyecto, se debe respetar la licencia del proyecto original y sus condiciones.
