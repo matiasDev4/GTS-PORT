@@ -151,7 +151,7 @@ public class Lang {
 		listingBought = "§2Your {listing} has been bought by {buyer}";
 		itemListingsButtonItem = CodecUtils.encodeItem(new ItemStack(CobblemonItems.ASSAULT_VEST));
 		pokemonListingsButtonItem = CodecUtils.encodeItem(new ItemStack(CobblemonItems.POKE_BALL));
-		manageListingsButtonItem = CodecUtils.encodeItem(new ItemStack(CobblemonItems.SACHET));
+		manageListingsButtonItem = CodecUtils.encodeItem(new ItemStack(CobblemonItems.SACCHARINE_BUTTON));
 		nextPageButtonItems = CodecUtils.encodeItem(new ItemStack(Items.ARROW));
 		previousPageButtonItems = CodecUtils.encodeItem(new ItemStack(CobblemonItems.POISON_BARB));
 		fillerItem = CodecUtils.encodeItem(new ItemStack(Items.WHITE_STAINED_GLASS_PANE));

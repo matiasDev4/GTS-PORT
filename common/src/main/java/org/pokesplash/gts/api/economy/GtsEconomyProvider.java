@@ -1,7 +1,7 @@
 package org.pokesplash.gts.api.economy;
 
 import org.pokesplash.gts.enumeration.Priority;
-import org.pokesplash.gts.impactor.ImpactorService;
+import org.pokesplash.gts.redux.ReduxService;
 
 import java.util.HashMap;
 
@@ -46,6 +46,6 @@ public abstract class GtsEconomyProvider {
         }
 
         // If no priority was found, default to Impactor.
-        return new ImpactorService();
+        return new ReduxService();
     }
 }
